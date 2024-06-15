@@ -1,0 +1,45 @@
+﻿<Page x:Class="TheTriviaProject.View.MakeAdmin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TheTriviaProject.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800" Background="LightPink"
+      Title="MakeAdmin">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Vertical" Height="317" Margin="10,87,0,0" >
+
+            <!-- TextBox to enter the email -->
+
+            <!-- Button to make the user admin -->
+
+            <!-- Button to make the user admin -->
+            <!-- TextBox to enter the email -->
+            <!-- Button to make the user admin -->
+
+            <!-- TextBox to enter the email -->
+            <!-- Button to make the user admin -->
+
+            <!-- TextBox to enter the email -->
+            <!-- Button to make the user admin -->
+            <TextBlock Text="Enter the email of the user to make admin:" FontSize="30" Foreground="#FFEC67D5" FontFamily="Bodoni MT Black" Width="814"/>
+
+            <!-- TextBox to enter the email -->
+            <TextBox x:Name="EmailTextBox" Text="Enter user email" Height="47" Width="398" FontSize="22" FontFamily="Bodoni MT Black"/>
+            <Button Content="Make Admin" Click="MakeAdminButton_Click" Width="150" BorderBrush="#FFEC67D5" Background="#FFFE9FEB"/>
+            <Button Content="Go back to the main page" Click="GObacktomain" Width="150" Height="36" RenderTransformOrigin="0.5,0.5" Background="#FFFE9FEB" BorderBrush="#FFF154BE">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="1.617"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-0.508"/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+
+        </StackPanel>
+    </Grid>
+</Page>
